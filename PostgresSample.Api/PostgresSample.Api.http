@@ -1,0 +1,32 @@
+@PostgresSample.Api_HostAddress = https://localhost:7269
+
+
+GET {{PostgresSample.Api_HostAddress}}/api/people
+
+###
+
+POST {{PostgresSample.Api_HostAddress}}/api/people
+Content-Type: application/json
+
+{
+  //CreatePersonDTO
+}
+
+###
+
+GET {{PostgresSample.Api_HostAddress}}/api/people/0
+
+###
+
+PUT {{PostgresSample.Api_HostAddress}}/api/people/0
+Content-Type: application/json
+
+{
+  //UpdatePersonDTO
+}
+
+###
+
+DELETE {{PostgresSample.Api_HostAddress}}/api/people/0
+
+###
